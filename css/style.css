@@ -1,0 +1,37 @@
+.container,.main-img,#tribute-info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .main-img {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+.container .main-img > img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+ul {
+	max-width: 500px;
+	margin: 0 auto 40px auto;
+	text-align: left;
+	line-height: 1.6;
+  }
+  
+li {
+	margin: 15px 0;
+}
+
+li span {
+	font-weight: bold;
+}
+
